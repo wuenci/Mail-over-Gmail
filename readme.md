@@ -9,6 +9,6 @@ Controlla le impostazioni nel tuo Account di GOOGLE e imposta l'accessibilità p
 Login in Google --> Preferenze Account --> Accessibilità --> App e Siti collegati --> Consenti App Meno Sicure
 
 
-![Img1](DocImg\accessibilita.png)  
-![Img2](DocImg\app_sicurezza.png)  
-![Img3](DocImg\consenti.png)  
+![Img1](DocImg/accessibilita.png)  
+![Img2](DocImg/app_sicurezza.png)  
+![Img3](DocImg/consenti.png)  
