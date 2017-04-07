@@ -13,18 +13,23 @@ namespace SendMailWithGmail
         static void Main(string[] args)
         {
             string to = "to_email@msn.com";
-            string from = "mai_email@gmail.com";
+            string from = "from_email@gmail.com";
+            string password = "password";
+
+            string host = "smtp.gmail.com";
+            int port = 587;
+
             MailMessage message = new MailMessage(from, to);
             message.IsBodyHtml = true;
-            message.Subject = "Ordine Ricambio";
-            message.Body = @" TEST";
+            message.Subject = "Messaggio di rova";
+            message.Body = @"Contenuto di prova";
             SmtpClient client = new SmtpClient();
 
             client.UseDefaultCredentials = true;
-            client.Credentials = new NetworkCredential("mia_email@gmail.com", "password");
-            client.Host = "smtp.gmail.com";
+            client.Credentials = new NetworkCredential(from, password);
+            client.Host = host;
             client.EnableSsl = true;
-            client.Port = 587;
+            client.Port = port;
             client.DeliveryMethod = SmtpDeliveryMethod.Network;
             try
             {
