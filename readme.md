@@ -1,7 +1,8 @@
 # Inviare E-Mail tramite Gmail
 Clona il codice e compila i parametri necessari direttamente nel codice d'esempio.
-Non è utilizzato un file di configurazione tipo web.config
-L’elenco dei parametri da impostare;
+Non è utilizzato un file di configurazione tipo web.config.  
+
+L’elenco dei parametri da impostare:
 
 ```c#
             string to = "to_email@msn.com";
@@ -10,13 +11,11 @@ L’elenco dei parametri da impostare;
 ```
 
 ## Impostazioni da fare nell'account di google:
-
 Controlla le impostazioni nel tuo Account di GOOGLE e imposta l'accessibilità per app meno sicure.
-
 Login in Google --> Preferenze Account --> Accessibilità --> App e Siti collegati --> Consenti App Meno Sicure
 
-### Passo per passo
 
+### Passo per passo
 1) Dopo avere effettuato il login in Google trovi in alto a destra il tuo avatar.  
 Clicca sull'avatar e scegli __Account personale___  
 ![Img1](DocImg/account_google.png)  
